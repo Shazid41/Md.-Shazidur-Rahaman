@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Shazidur Rahaman - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">Md. Shazidur Rahaman</h1>
+        <div class="hamburger-menu" onclick="toggleMenu()">☰</div>
+        <ul class="nav-links">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact" class="contact-btn">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Me -->
+    <section id="about" class="section">
+        <h2 class="header">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    I am a passionate freelancer with expertise in UI/UX design, graphics design, MS Office, SEO, data entry, and content writing.  
+                    I focus on creating visually appealing designs that enhance user experience while ensuring high performance.  
+                    With years of experience, I have worked with clients worldwide, providing them with professional, creative, and  
+                    result-driven solutions that help grow their businesses.
+                </p>
+            </div>
+            <div class="about-img">
+                <img src="profile-image.jpg" alt="Shazidur Rahaman" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <h2 class="header">Skills</h2>
+        <div class="skills-container">
+            <div class="card">
+                <i class="fas fa-desktop"></i>
+                <h3>UI/UX Design</h3>
+                <p>Crafting intuitive interfaces with a user-first mindset.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Graphics Design</h3>
+                <p>Designing visually compelling artwork for various purposes.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-search"></i>
+                <h3>SEO & Digital Marketing</h3>
+                <p>Optimizing your content to rank higher and reach more audience.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-laptop"></i>
+                <h3>Data Entry & MS Office</h3>
+                <p>Efficient data management and office tasks for your business.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <h2 class="header">Projects</h2>
+        <div class="projects-container">
+            <div class="card">
+                <h3>Creative UI Dashboard</h3>
+                <p>A modern and responsive dashboard design for businesses.</p>
+            </div>
+            <div class="card">
+                <h3>Brand Identity</h3>
+                <p>Building strong brand visuals that resonate with audiences.</p>
+            </div>
+            <div class="card">
+                <h3>SEO-Optimized Blog</h3>
+                <p>Boost your website's ranking with SEO-driven content.</p>
+            </div>
+            <div class="card">
+                <h3>E-Commerce UI</h3>
+                <p>A seamless user experience design for online stores.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="section">
+        <h2 class="header">Reviews</h2>
+        <div class="reviews-container">
+            <div class="review-card">"Great work! Very professional." - John Doe</div>
+            <div class="review-card">"Impressive UI designs." - Sarah Lee</div>
+            <div class="review-card">"SEO results were outstanding!" - Mark Smith</div>
+            <div class="review-card">"Highly recommend for graphics!" - Lisa Brown</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="contact-box">
+            <h2>Contact Me</h2>
+            <form id="contact-form" onsubmit="sendEmail(event)">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-left">
+            <a href="https://www.facebook.com/profile.php?id=61564584511564" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://wa.me/01617355852" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/shazid9/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="footer-right">
+            <p>Kushtia Sadar, Kushtia, Bangladesh</p>
+            <p>shazidsaharia21@gmail.com</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
